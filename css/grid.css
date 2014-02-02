@@ -10,8 +10,143 @@ http://www.opensource.org/licenses/mit
 
 Table of Content
 
-#TK
-#TK
-#TK
+#Some Page-Wide Styles
+#Containers
+#Misc
 
+----------------------------------------
+
+
+
+----------------------------------------
+#Some Page-Wide Styles
 --------------------------------------*/
+
+html, body {
+  position: relative;
+  width: 100%;
+  height: auto
+}
+
+.maincontainer {
+  position: relative;
+  width: auto;
+  height: auto;
+  float: left;
+  margin: 0 auto;
+  clear: both;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/*----------------------------------------
+#Containers
+--------------------------------------*/
+
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty, .twenty-one, .twenty-two, .twenty-three, .twenty-four, .twenty-five, .twenty-six, .twenty-seven, .twenty-eight, .twenty-nine, .thirty, .thirty-one, .thirty-two, .thirty-three, .thirty-four, .thirty-five, .thirty-six, .thirty-seven, .thirty-eight, .thirty-nine, .forty {
+
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /* Firefox */
+  float: left;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.one {max-width: 100px}
+
+.two {max-width: 200px}
+
+.three {max-width: 300px}
+
+.four {max-width: 400px}
+
+.five {max-width: 500px}
+
+.six {max-width: 600px}
+
+.seven {max-width: 700px}
+
+.eight {max-width: 800px}
+
+.nine {max-width: 900px}
+
+.ten {max-width: 1000px}
+
+.eleven {max-width: 1100px}
+
+.twelve {max-width: 1200px}
+
+.thirteen {max-width: 1300px}
+
+.fourteen {max-width: 1400px}
+
+.fifteen {max-width: 1500px}
+
+.sixteen {max-width: 1600px}
+
+.seventeen {max-width: 1700px}
+
+.eighteen {max-width: 1800px}
+
+.nineteen {max-width: 1900px}
+
+.twenty {max-width: 2000px}
+
+.twenty-one {max-width: 2100px}
+
+.twenty-two {max-width: 2200px}
+
+.twenty-three {max-width: 2300px}
+
+.twenty-four {max-width: 2400px}
+
+.twenty-five {max-width: 2500px}
+
+.twenty-six {max-width: 2600px}
+
+.twenty-seven {max-width: 2700px}
+
+.twenty-eight {max-width: 2800px}
+
+.twenty-nine {max-width: 2900px}
+
+.thirty {max-width: 3000px}
+
+.thirty-one {max-width: 3100px}
+
+.thirty-two {max-width: 3200px}
+
+.thirty-three {max-width: 3300px}
+
+.thirty-four {max-width: 3400px}
+
+.thirty-five {max-width: 3500px}
+
+.thirty-six {max-width: 3600px}
+
+.thirty-seven {max-width: 3700px}
+
+.thirty-eight {max-width: 3800px}
+
+.thirty-nine {max-width: 3900px}
+
+.forty {max-width: 4000px}
+
+
+
+
+
+
+
+/*----------------------------------------
+#Misc
+--------------------------------------*/
+
+.unpadded {padding: 0}
+
+
