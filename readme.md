@@ -1,7 +1,7 @@
-Beam
+Beams
 =========
 
-Beam is a responsive framework created primarily with video sites in mind. It should also integrate well with other types of Web projects that require beautiful display across different types of devices. 
+Beams is a responsive framework created primarily with video sites in mind. It should also integrate well with other types of Web projects that require beautiful display across different types of devices. 
 
 Key component of the project so far is a responsive layout written in CSS3 using a gutterless 40-column 4,000-pixel grid that sizes down elegantly to the size of a smartphone screen or anything inbetween. There were two main goals in creating the grid this way:
 
