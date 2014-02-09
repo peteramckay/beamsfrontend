@@ -13,9 +13,15 @@ Every column here is 100 pixels wide. That's it. There are no gutters, but there
 
 I've also included a copy of the compressed jQuery v2.1.0 file in this project so Beam implementers can quickly access that popular library from their own servers. I may add other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.
 
-Will certainly be adding integration with YouTube, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration.
+Will certainly be adding integration with, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration.
 
 All code for this project is free to use under MIT license. 
+
+
+All elements with the class .beams should be children to the body element. Nesting them any deeper in the DOM may cause issues with padding.
+
+- Total number of columns in a beam should come out to 19, max.
+
 
 Peter McKay
 Feb. 8, 2014

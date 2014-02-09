@@ -59,24 +59,24 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.25em
 }
 
-h1 {font-size: 4.4em}
+h1 {font-size: 4em}
 
-h2 {font-size: 4em}
+h2 {font-size: 3.6em}
 
-h3 {font-size: 3.6em}
+h3 {font-size: 3.2em}
 
-h4 {font-size: 3.2em}
+h4 {font-size: 2.8em}
 
-h5 {font-size: 2.8em}
+h5 {font-size: 2.4em}
 
-h6 {font-size: 2.4em}
+h6 {font-size: 2em}
 
 h4, h5, h6 {margin-bottom: 0.5em}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
 p {
-  font-size: 1.6em;
+  font-size: 1.4em;
   line-height: 1.4;
   margin-bottom: 1em;  
 }
@@ -124,33 +124,62 @@ table {
 #Grid
 --------------------------------------*/
 
-.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten {
-  padding: 10px 5px 10px 5px;
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty {
+  padding: 0 10px 0 10px; /*Totals up to about 10% of a single column's width.*/
   display: inline-block;
   width: 100%;
   float: left;
 }
 
-.one {max-width: 100px}
+.one {max-width: 200px}
 
-.two {max-width: 200px}
+.two {max-width: 400px}
 
-.three {max-width: 300px}
+.three {max-width: 600px}
 
-.four {max-width: 400px}
+.four {max-width: 800px}
 
-.five {max-width: 500px}
+.five {max-width: 1000px}
 
-.six {max-width: 600px}
+.six {max-width: 1200px}
 
-.seven {max-width: 700px}
+.seven {max-width: 1400px}
 
-.eight {max-width: 800px}
+.eight {max-width: 1600px}
 
-.nine {max-width: 900px}
+.nine {max-width: 1800px}
 
-.ten {max-width: 1000px}
+.ten {max-width: 2000px}
 
+.eleven {max-width: 2200px}
+
+.twelve {max-width: 2400px}
+
+.thirteen {max-width: 2600px}
+
+.fourteen {max-width: 2800px}
+
+.fifteen {max-width: 3000px}
+
+.sixteen {max-width: 3200px}
+
+.seventeen {max-width: 3400px}
+
+.eighteen {max-width: 3600px}
+
+.nineteen {max-width: 3800px}
+
+.twenty {max-width: 4000px}
+
+.beam {
+  padding: 0 10px 0 10px;
+  display: block;
+  width: 100%;
+  max-width: none;
+  float: left;
+}
+
+.beam (last-child) {padding-right: 0}
 
 /*--------------------------------------
 #Links
@@ -176,7 +205,7 @@ ul, ol {
   display: block;
 }
 
-ul {list-style: square outside}
+ul {list-style: square inside}
 
 ol {list-style: decimal}
 

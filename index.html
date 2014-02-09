@@ -18,27 +18,24 @@
 </head>
 <body>
   <style> /* Some very specific styles here for the demo page. These aren't really part of the framework, thus should be deleted by implementers.*/
-    html {}
-
+    
     #flag {
       background: url('http://dl.dropboxusercontent.com/u/45579920/beams_samples/london.jpg');
-      background-size: auto 100%;
+      background-size: cover;
       background-position: center center;
       color: white; 
       width: 100%; 
       display: block;
       text-align: center;
-      padding-top: 3em;
-      padding-bottom: 1em;
+      padding-top: 2.5em;
+      padding-bottom: 2.5em;
     }
-
-    .one {border: 2px dotted blue}
 
   </style>
 
-  <h1 id="flag" class="forty">Make It Better With Beams.</h1>
-  <div class="ten unpadded beam" id="intro">
-    <div class="six offset1">
+  <h1 id="flag">Build it better. Start with Beams.</h1>
+  <div class="beam" id="intro">
+    <div class="fourteen">
 		<p>Beams is an open front-end Web framework created primarily with video-heavy sites in mind. It should also integrate well with other types of Web projects that require beautiful display across different types of devices.</p>
         <p>Key component of the project so far is a responsive layout written in CSS3 using a gutterless 40-column 4,000-pixel grid made for livingroom-sized screens. It also scales down elegantly to the size of a smartphone screen or anything inbetween.</p>
         <p>That responsiveness is built on simple round-number breakpoints rather than media queries written for particular manufacturers' screen sizes. We believe this will make the framework more future-proof in case of hardware changes, which seem to happen rapidly these days.</p>
@@ -46,9 +43,9 @@
         <p>We've also included a copy of the compressed jQuery v2.1.0 file in this project so Beams implementers can quickly access that popular library from their own servers. Other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.</p>
         <p>Will certainly be adding integration with YouTube, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration.</p>
         <p>All code for this project is free to use under MIT license.</p>
-     </div>
+     </div><!-- End intro -->
      
-     <div class="two offset1" id="introsidebar">
+     <div class="four" id="introsidebar">
 		 <h5>Sidebar goes here</h5>
          <ul>
            <li>GitHub link</li>
@@ -63,10 +60,6 @@
   
   </div><!-- End intro -->
   
-  
-  
-
-
 <hr>
 
 
