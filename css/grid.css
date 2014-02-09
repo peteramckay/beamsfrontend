@@ -28,18 +28,6 @@ html, body {
   height: auto
 }
 
-.maincontainer {
-  position: relative;
-  width: auto;
-  height: auto;
-  float: left;
-  margin: 0 auto;
-  clear: both;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  vertical-align: top
-}
-
 
 /*----------------------------------------
 #Containers
@@ -47,14 +35,14 @@ html, body {
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty, .twenty-one, .twenty-two, .twenty-three, .twenty-four, .twenty-five, .twenty-six, .twenty-seven, .twenty-eight, .twenty-nine, .thirty, .thirty-one, .thirty-two, .thirty-three, .thirty-four, .thirty-five, .thirty-six, .thirty-seven, .thirty-eight, .thirty-nine, .forty {
 
-  padding-right: 1.5%;
-  padding-left: 1.5%;
+  padding-right: 5px;
+  padding-left: 5px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
   -moz-box-sizing: border-box; /* Firefox */
   float: left;
-  display: inline;
+  display: block;
   margin-bottom: 10px;
 }
 

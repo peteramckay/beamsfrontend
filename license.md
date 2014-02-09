@@ -1,5 +1,5 @@
-The MIT License
-================
+Software License (MIT)
+======================
 
 ### Copyright (c) 2013 Peter McKay
 
