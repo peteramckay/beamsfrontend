@@ -12,7 +12,9 @@ Table of Content
 
 #Some Page-Wide Styles
 #Containers
+#Offsets
 #Misc
+#Media Queries
 
 ----------------------------------------
 
@@ -22,10 +24,16 @@ Table of Content
 #Some Page-Wide Styles
 --------------------------------------*/
 
-html, body {
+html {
   position: relative;
   width: 100%;
   height: auto
+}
+
+*, *:before, *:after { /* Apply a natural box layout model to all elements. Hat tip on this to Paul Irish, who blogged about it at http://www.paulirish.com/2012/box-sizing-border-box-ftw/ */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
 }
 
 
@@ -38,11 +46,10 @@ html, body {
   padding-right: 5px;
   padding-left: 5px;
   width: 100%;
-  margin: 0 auto;
   box-sizing: border-box;
   -moz-box-sizing: border-box; /* Firefox */
   float: left;
-  display: block;
+  display: inline;
   margin-bottom: 10px;
 }
 
@@ -127,7 +134,96 @@ html, body {
 .forty {max-width: 4000px}
 
 
+/*----------------------------------------
+#Offsets
+--------------------------------------*/
 
+.offset1 {margin-left:100px}
+
+.offset2 {margin-left:200px}
+
+
+/*
+
+For now, longer offsets are really throwing a wrench in the layout. Will get one- and two-column offsets working first, then move on to longer ones. Eventually, there should be one less offset than there is columns on the grid: 39
+
+.offset3 {margin-left:300px}
+
+.offset4 {margin-left:400px}
+
+.offset5 {margin-left:500px}
+
+.offset6 {margin-left:600px}
+
+.offset7 {margin-left:700px}
+
+.offset8 {margin-left:800px}
+
+.offset9 {margin-left:900px}
+
+.offset10 {margin-left:1000px}
+
+.offset11 {margin-left:1100px}
+
+.offset12 {margin-left:1200px}
+
+.offset13 {margin-left:1300px}
+
+.offset14 {margin-left:1400px}
+
+.offset15 {margin-left:1500px}
+
+.offset16 {margin-left:1600px}
+
+.offset17 {margin-left:1700px}
+
+.offset18 {margin-left:1800px}
+
+.offset19 {margin-left:1900px}
+
+.offset20 {margin-left:2000px}
+
+.offset21 {margin-left:2100px}
+
+.offset22 {margin-left:2200px}
+
+.offset23 {margin-left:2300px}
+
+.offset24 {margin-left:2400px}
+
+.offset25 {margin-left:2500px}
+
+.offset26 {margin-left:2600px}
+
+.offset27 {margin-left:2700px}
+
+.offset28 {margin-left:2800px}
+
+.offset29 {margin-left:2900px}
+
+.offset30 {margin-left:3000px}
+
+.offset31 {margin-left:3100px}
+
+.offset32 {margin-left:3200px}
+
+.offset33 {margin-left:3300px}
+
+.offset34 {margin-left:3400px}
+
+.offset35 {margin-left:3500px}
+
+.offset36 {margin-left:3600px}
+
+.offset37 {margin-left:3700px}
+
+.offset38 {margin-left:3800px}
+
+.offset39 {margin-left:3900px}
+
+
+
+*/
 
 
 
@@ -137,5 +233,15 @@ html, body {
 --------------------------------------*/
 
 .unpadded {padding: 0}
+
+
+/*----------------------------------------
+#Media Queries
+--------------------------------------*/
+
+
+
+
+
 
 

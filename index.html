@@ -20,7 +20,7 @@
   <style> /* Some very specific styles here for the demo page. These aren't really part of the framework, thus should be deleted by implementers.*/
     html {}
 
-    h1 {
+    #flag {
       background: url('http://dl.dropboxusercontent.com/u/45579920/beams_samples/london.jpg');
       background-size: auto 100%;
       background-position: center center;
@@ -29,27 +29,118 @@
       display: block;
       text-align: center;
       padding-top: 3em;
-      padding-bottom: 3em;
+      padding-bottom: 1em;
+      margin-bottom: 0.5em;
     }
 
     .one {border: 2px dotted blue}
 
   </style>
 
-  <h1>It's beautiful. It's Beams.</h1>
-  <span class="eight"><p>Beams is an open front-end Web framework created primarily with video-heavy sites in mind. It should also integrate well with other types of Web projects that require beautiful display across different types of devices.</p>
-  <p>Key component of the project so far is a responsive layout written in CSS3 using a gutterless 40-column 4,000-pixel grid made for livingroom-sized screens. It also scales down elegantly to the size of a smartphone screen or anything inbetween.</p>
-  <p>That responsiveness is built on simple round-number breakpoints rather than media queries written for particular manufacturers' screen sizes. We believe this will make the framework more future-proof in case of hardware changes, which seem to happen rapidly these days.</p>
-  <p>Every column here is 100 pixels wide. That's it. There are no gutters, but there is a 10px padding internally within each column.</p>
-  <p>We've also included a copy of the compressed jQuery v2.1.0 file in this project so Beams implementers can quickly access that popular library from their own servers. Other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.</p>
-  <p>Will certainly be adding integration with YouTube, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration.</p>
-  <p>All code for this project is free to use under MIT license.</p></span>
+  <h1 id="flag" class="forty">Meet Beams. A better framework.</h1>
+  <div class="ten unpadded beam" id="intro">
+    <div class="six offset1">
+		<p>Beams is an open front-end Web framework created primarily with video-heavy sites in mind. It should also integrate well with other types of Web projects that require beautiful display across different types of devices.</p>
+        <p>Key component of the project so far is a responsive layout written in CSS3 using a gutterless 40-column 4,000-pixel grid made for livingroom-sized screens. It also scales down elegantly to the size of a smartphone screen or anything inbetween.</p>
+        <p>That responsiveness is built on simple round-number breakpoints rather than media queries written for particular manufacturers' screen sizes. We believe this will make the framework more future-proof in case of hardware changes, which seem to happen rapidly these days.</p>
+        <p>Every column here is 100 pixels wide. That's it. There are no gutters, but there is a 10px padding internally within each column.</p>
+        <p>We've also included a copy of the compressed jQuery v2.1.0 file in this project so Beams implementers can quickly access that popular library from their own servers. Other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.</p>
+        <p>Will certainly be adding integration with YouTube, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration.</p>
+        <p>All code for this project is free to use under MIT license.</p>
+     </div>
+     
+     <div class="two offset1" id="introsidebar">
+		 <h5>Sidebar goes here</h5>
+         <ul>
+           <li>GitHub link</li>
+           <li>Other link</li>
+           <li>Other link</li>
+           <li>Other link</li>
+         </ul>
+     </div>
+
+  
+     
+  
+  </div><!-- End intro -->
+  
+  
+  
+
+
+<hr>
+
+
+<h1>Some leftovers go here....</h1>
+
+
+<!--
+
+
+http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/
+<iframe width="560" height="315" src="//www.youtube.com/embed/7ZOARQiyj9s?rel=0" frameborder="0" allowfullscreen></iframe>
+	  
+	<video></video>  
+	
+	
+	
+	  
+
+
+https://dl.dropboxusercontent.com/u/45579920/london.jpg
+
+
+Photo by Alexander Kachkaev via Flickr under Creative Commons license
+
+
+http://www.flickr.com/photos/kachkaev/
+http://creativecommons.org/licenses/by/2.0/
 
 
 
 
 
+      <h2>Another headline goes here</h2>
+      <p>But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange! Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice. No. They must get just as nigh the water as they possibly can without falling in. And there they stand—miles of them—leagues. Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west. Yet here they all unite. Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither?</p>
+      <blockquote><p>Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off—then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.</p>
+      <p>There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there.</p></blockquote>
+      <p>Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward. What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here?</p>
+          
+      <h1>A 3-column div with another h1 headline</h1>
+      <h2>This is an h2 headline</h2>
+      <h3>This is an h3 headline</h3>
+      <h4>This is an h4 headline</h4>
+      <h5>This is an h5 headline</h5>
+      <h6>This is an h6 headline</h6>
+    
+      <h2>This is a 5-column div</h2>
+      <p>Circumambulate the city of a dreamy Sabbath afternoon.</p>
+      <ul>
+        <li>Go from Corlears Hook..</li>	  
+        <li>To Coenties Slip...</li>	  
+        <li>And from thence, by Whitehall, northward.</li>	  
+      </ul>  
+      <p>What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here?</p>
+      <button type="button">Click Me!</button> 
+      <button type="button">Another Button</button> 
+      <p>But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange! Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice. No. They must get just as nigh the water as they possibly can without falling in. And there they stand—miles of them—leagues. Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west. Yet here they all unite. Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither?</p>
+    
+      <form name="bngform" action="" method="get">
+        <p>First, we'll need the name your mama and the government call you by.</p>
+        <input type="text" name="RnameF" value="" placeholder="First"><br>
+        <input type="text" name="RnameM" value="" placeholder="Middle"><br>
+        <input type="text" name="RnameL" value="" placeholder="Last"><br>
+        <p>Next, your gender, please.</p><br>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="male">Hoochie Coochie Man</label><br>
+        <input type="radio" name="sex" id="female" value="female">
+        <label for="female">Mean Mistreatin' Woman</label><br>
+        <input type="radio" name="sex" id="trans" value="trans">
+        <label for="trans">It's a new day. It's a new life for me.</label><br>
+        <input type="submit" value="Submit" onSubmit="generateBname(this.bngform)" id="subbutton">
+    </form>
 
+-->
 
 </body>
 </html>

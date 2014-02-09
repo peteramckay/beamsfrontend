@@ -50,7 +50,7 @@ table {
 }
 
 hr {
-  border: solid #D1D1D1; 
+  border: 1px solid #828282; 
   border-width: 1px 0 0; 
   clear: both; 
   margin: 10px 0 10px;
@@ -64,13 +64,15 @@ hr {
 --------------------------------------*/
 
 html {
-  background: white;
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
+  width: 100%
 }
+
+body {width: 100%}
 
 em {font-style: italic}
 
@@ -78,28 +80,28 @@ strong {font-weight: bold}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
-  line-height: 1.25;
+  line-height: 1.2;
   font-weight: bold;
   margin-bottom: 10px
 }
 
-h1 {font-size: 3.6em}
+h1 {font-size: 4.4em}
 
-h2 {font-size: 3.2em}
+h2 {font-size: 4em}
 
-h3 {font-size: 2.8em}
+h3 {font-size: 3.6em}
 
-h4 {font-size: 2.4em}
+h4 {font-size: 3.2em}
 
-h5 {font-size: 1.8em}
+h5 {font-size: 2.8em}
 
-h6 {font-size: 1.6em}
+h6 {font-size: 2.4em}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
 p {
   font-size: 1.6em;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-bottom: 1em;  
 }
 
@@ -218,6 +220,16 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
+.beam {
+  border: 2px dashed blue;
+  display: block;
+  float: none;
+  clear: both;
+  margin: 0 auto
+}
+
+.beam * {border: 2px solid red; float: none}
 
 /*--------------------------------------
 #Forms
