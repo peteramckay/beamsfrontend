@@ -75,8 +75,8 @@ h4, h5, h6 {margin-bottom: 0.5em}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
-p {
-  font-size: 1.4em;
+p, ul, ol, .button {
+  font-size: 1.3em;
   line-height: 1.4;
   margin-bottom: 1em;  
 }
@@ -123,6 +123,14 @@ table {
 /*--------------------------------------
 #Grid
 --------------------------------------*/
+
+.beam {
+  display: block;
+  width: 100%;
+  max-width: none;
+  float: left;
+  padding: 0 3% 0 3%;
+}
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty {
   padding: 0 10px 0 10px; /*Totals up to about 10% of a single column's width.*/
@@ -171,16 +179,6 @@ table {
 
 .twenty {max-width: 4000px}
 
-.beam {
-  padding: 0 10px 0 10px;
-  display: block;
-  width: 100%;
-  max-width: none;
-  float: left;
-}
-
-.beam (last-child) {padding-right: 0}
-
 /*--------------------------------------
 #Links
 --------------------------------------*/
@@ -189,6 +187,7 @@ a, a:visited {
   text-decoration: none;
   color: #D60000;  
   outline: 0;
+  font-weight: bold
 }
 
 a:hover, a:focus {text-decoration: underline}
@@ -201,7 +200,6 @@ ul, ol {
   margin-bottom: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  font-size: 1.6em;
   display: block;
 }
 
@@ -229,7 +227,6 @@ li {margin-bottom: 10px}
   border-radius: 3px;
   color: #444;
   display: inline-block;
-  font-size: 1.6em;
   font-weight: normal;
   text-decoration: none;
   text-shadow: 0 1px rgba(255, 255, 255, .75);
@@ -328,5 +325,4 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 /*--------------------------------------
 #Miscellaneous
 --------------------------------------*/
-
 

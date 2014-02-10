@@ -7,17 +7,16 @@ http://www.opensource.org/licenses/mit
 
 ----------------------------------------
 
-Table of Content
-
-#TK
-#TK
-#TK
+Breakpoints below set every 200 pixels.
 
 --------------------------------------*/
 
 @media screen and (max-width: 3800px) {} /*End 3800px breakpoint*/
+
 @media screen and (max-width: 3600px) {} /*End 3600px breakpoint*/
+
 @media screen and (max-width: 3400px) {} /*End 3400px breakpoint*/
+
 @media screen and (max-width: 3200px) {} /*End 3200px breakpoint*/
 
 @media screen and (max-width: 3000px) {
@@ -67,8 +66,11 @@ Table of Content
 
 
 @media screen and (max-width: 2800px) {} /*End 2800px breakpoint*/
+
 @media screen and (max-width: 2600px) {} /*End 2600px breakpoint*/
+
 @media screen and (max-width: 2400px) {} /*End 2400px breakpoint*/
+
 @media screen and (max-width: 2200px) {} /*End 2200px breakpoint*/
 
 @media screen and (max-width: 2000px) {
@@ -115,11 +117,53 @@ Table of Content
 
 } /*End 2000px breakpoint*/
 
-
-
 @media screen and (max-width: 1800px) {} /*End tk00px breakpoint*/
+
 @media screen and (max-width: 1600px) {} /*End tk00px breakpoint*/
-@media screen and (max-width: 1400px) {} /*End tk00px breakpoint*/
+
+@media screen and (max-width: 1400px) {
+
+  .one {max-width: 70px}
+
+  .two {max-width: 140px}
+
+  .three {max-width: 210px}
+
+  .four {max-width: 280px}
+
+  .five {max-width: 350px}
+
+  .six {max-width: 420px}
+
+  .seven {max-width: 490px}
+
+  .eight {max-width: 560px}
+
+  .nine {max-width: 630px}
+
+  .ten {max-width: 700px}
+
+  .eleven {max-width: 770px}
+
+  .twelve {max-width: 840px}
+
+  .thirteen {max-width: 910px}
+
+  .fourteen {max-width: 980px}
+
+  .fifteen {max-width: 1050px}
+
+  .sixteen {max-width: 1120px}
+
+  .seventeen {max-width: 1190px}
+
+  .eighteen {max-width: 1260px}
+
+  .nineteen {max-width: 1330px}
+
+  .twenty {max-width: 1400px}
+
+} /*End 1400px breakpoint*/
 
 @media screen and (max-width: 1200px) {
 
