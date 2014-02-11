@@ -26,9 +26,12 @@ The "beam" class may be applied to any element, but beams should all be children
 
 The children of a beam can have classses of "one" to "twenty" to specify how many columns each shoudl take up. Please note, although each beam is 20 columns wide, the children's widths should add up to no more than 18. This is because there's about a column's worth of whitespace on the side of each div by default.
 
-Please note, Beams suite is currently at v0.1, an alpha release. The framework here, as well as some complementary modules for server configuration and ad display, are still a bit rough around the edges, to be sure. But we believe we at least have a good start here, something we can show to other developers, begin to build a community around, and begin iterating quickly.
+Please note, I consider this version of Beams an alpha version. The framework here is still a bit rough around the edges, to be sure. But I think it's at least a good start, something to show to other developers, get feedback, and begin iterating quickly.
 
-Will certainly be adding integration with, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration. If you have any other feedback or suggestions, I'm glad to hear them via GitHub or email peteramckay@gmail.com.
+Will certainly be adding integration with, Vimeo and Kaltura APIs for video players, etc, in short order. Of course, we're going to need that for the sake of video integration. 
+
+If you have any other feedback or suggestions, I'm glad to hear them via GitHub or email peteramckay@gmail.com.
 
 Peter McKay
 Feb. 10, 2014
+
