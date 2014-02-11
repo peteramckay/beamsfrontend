@@ -32,6 +32,6 @@ Will certainly be adding integration with, Vimeo and Kaltura APIs for video play
 
 If you have any other feedback or suggestions, I'm glad to hear them via GitHub or email peteramckay@gmail.com.
 
-Peter McKay
+Peter McKay, 
 Feb. 10, 2014
 
