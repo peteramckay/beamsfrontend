@@ -5,9 +5,7 @@ Beams is a front-end Web framework designed primarily for multimedia-heavy sites
 
 Beams is free to use under MIT license. Key features of the framework so far: 
 
-- Built in HTML5, CSS3, and jQuery. For the purposes of the current alpha version of Beams, the focus is really on the CSS3 piece. But there is an unmodified copy of jQuery v2.1.0 included as well just in case implementers need it, so they can put it on their servers and call it quicker for their applications.
-
-We may add other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.
+- Built in HTML5, CSS3, and jQuery. For the purposes of the current alpha version of Beams, the focus is really on the CSS3 piece. But there is an unmodified copy of jQuery v2.1.0 included as well just in case implementers need it, so they can put it on their servers and call it quicker for their applications. We may add other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.
 
 - Responsive visual design based on a 20-column, 4,000-pixel grid -- approximately the physical screen size of a 48-inch TV. Yet the framework also scales down smoothly to any other size from desktop to tablet to smartphone as well.
 
