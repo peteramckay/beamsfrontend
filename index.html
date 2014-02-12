@@ -24,16 +24,15 @@
       background: url('img/london.jpg');
       background-size: cover;
       background-position: center center;  
+      margin-bottom: 2em   
     }
 
     #flag h1 {
       color: white; 
       text-align: center;
-      padding: 2.5em 0 1.5em 0;    
+      padding: 2.5em 0 1.5em 0; 
     }
     
-   #introtext {clear: both; display: block; float: none; clear: both; margin: 0 auto; max-width: 900px; padding: 2em 0 6em 0 }
-
   </style>
 
   <div class="beam" id="flag"> <!-- A "beam" is a full-width horizontal row within the page design. This is the basic visual building block of pages within this framework. -->
@@ -42,8 +41,7 @@
 
   <div class="beam" id="intro"> 
 
-    <span id="introtext"> <!-- A ten-column child container within the beam. In this case, I've centered the child using custom inline stylesheet above. But if you stick with the framework's default settings, put up to 18 columns of content on each beam. The layout leaves about 1 column of whitespace on each side. -->
-
+    <div class="fourteen"> <!-- A ten-column child container within the beam. In this case, I've centered the child using custom inline stylesheet above. But if you stick with the framework's default settings, put up to 18 columns of content on each beam. The layout leaves about 1 column of whitespace on each side. -->
 
       <p>Beams is a front-end Web framework designed primarily for multimedia-heavy sites. It is the centerpiece of a suite of open-source modules for developers who need to support video, photos, and other content across the widest range of screens and use cases possible.</p>
       <p>The Beams suite is currently v0.1.0, an alpha release. The modules are still a bit rough around the edges, to be sure. But we believe we at least have a good start here, something we can show to other developers, begin to build a community around, and start iterating quickly.</p>
@@ -55,7 +53,16 @@
       </ul>
       <p>We're glad to get pull requests, bug reports, or any other feedback you have about Beams. Drop us an <a href="mailto:peteramckay@gmail.com">email</a> anytime or visit us on <a href="http://github.com/peteramckay/beams">GitHub</a>.</p>
         
-     </span><!-- End ten-col container -->
+     </div><!-- End 10-col container -->
+
+     <div class="four">
+	   <h6>A list goes here...</h6>
+	   <ul>
+	     <li>Item 1</li>
+	     <li>Item 2</li>
+	     <li>Item 3</li>
+	   </ul> 
+     </div> <!-- End 8-column container -->
      
   </div><!-- End intro beam -->
 

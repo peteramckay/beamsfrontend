@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.2;
   font-weight: bold;
-  margin-bottom: 0.25em
+  margin-bottom: 0.5em;
 }
 
 h1 {font-size: 4em}
@@ -71,7 +71,7 @@ h5 {font-size: 2.4em}
 
 h6 {font-size: 2em}
 
-h4, h5, h6 {margin-bottom: 0.5em}
+h4, h5, h6 {margin-bottom: 0.25em}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
@@ -80,6 +80,12 @@ p, ul, ol, .button {
   line-height: 1.4;
   margin-bottom: 1em;  
 }
+
+li {margin-bottom: 0.5em}
+
+ul:last-child {margin-bottom: 0}
+
+ol:last-child {margin-bottom: 0}
 
 em {font-style: italic}
 
@@ -124,60 +130,63 @@ table {
 #Grid
 --------------------------------------*/
 
-.beam {
-  display: block;
-  width: 100%;
-  max-width: none;
+.beam {/* This is basic building block of the 20-column, 4000px grid. 1 column of padding by default... */
+  position: relative; 
+  width: 4000px;
+  margin: 0 auto;
   float: left;
-  padding: 0 3% 0 3%;
+  padding: 0 200px 0 200px;
 }
+
+
+/*Dividing beams into columns...*/
 
 .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty {
-  padding: 0 10px 0 10px; /*Totals up to about 10% of a single column's width.*/
+  margin: 0 0 0 40px; /* The gutters. May need to reset these with queries as screen shrinks... */
   display: inline-block;
-  width: 100%;
   float: left;
 }
 
-.one {max-width: 200px}
+.one {width: 4%}
 
-.two {max-width: 400px}
+.two {width: 9%}
 
-.three {max-width: 600px}
+.three {width: 14%}
 
-.four {max-width: 800px}
+.four {width: 19%}
 
-.five {max-width: 1000px}
+.five {width: 24%}
 
-.six {max-width: 1200px}
+.six {width: 29%}
 
-.seven {max-width: 1400px}
+.seven {width: 44%}
 
-.eight {max-width: 1600px}
+.eight {width: 39%}
 
-.nine {max-width: 1800px}
+.nine {width: 44%}
 
-.ten {max-width: 2000px}
+.ten {width: 49%}%
 
-.eleven {max-width: 2200px}
+.eleven {width: 54%}
 
-.twelve {max-width: 2400px}
+.twelve {width: 59%}
 
-.thirteen {max-width: 2600px}
+.thirteen {width: 64%}
 
-.fourteen {max-width: 2800px}
+.fourteen {width: 69%}
 
-.fifteen {max-width: 3000px}
+.fifteen {width: 74%}
 
-.sixteen {max-width: 3200px}
+.sixteen {width: 79%}
 
-.seventeen {max-width: 3400px}
+.seventeen {width: 84%}
 
-.eighteen {max-width: 3600px}
+.eighteen {width: 89%}
 
-.nineteen {max-width: 3800px}
+.nineteen {width: 94%}
 
-.twenty {max-width: 4000px}
+.twenty {width: 99%}
+
 
 /*--------------------------------------
 #Links
@@ -196,18 +205,11 @@ a:hover, a:focus {text-decoration: underline}
 #Lists
 --------------------------------------*/
 
-ul, ol {
-  margin-bottom: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  display: block;
-}
+ul, ol {display: block;}
 
 ul {list-style: square inside}
 
 ol {list-style: decimal}
-
-li {margin-bottom: 10px}
 
 /*--------------------------------------
 #Buttons
