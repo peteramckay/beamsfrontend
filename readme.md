@@ -26,12 +26,10 @@ The "beam" class may be applied to any type of element, but beams should all be 
 
 The children of a beam can have classses of "one" to "twenty" to specify how many columns each should take up. Please note, although each beam is 20 columns wide, the children's widths should add up to no more than 18 columns. There's about a column's worth of whitespace on the side of each div by default.
 
-Again, I consider this version of Beams an alpha version. The framework here is still a bit rough around the edges, to be sure. But I think it's at least a good start, something to show to other developers, get feedback, and begin iterating quickly.
+Again, I consider this version of Beams an alpha. The framework here is still a bit rough around the edges, to be sure. But I think it's at least a good start, something to show to other developers, get feedback, and begin iterating quickly.
 
 Will certainly be adding integration with YouTube and other video services soon. We're going to need that for the sake of video integration. 
 
 If you have any other feedback or suggestions, I'm glad to hear them via GitHub or email peteramckay@gmail.com.
 
-Peter McKay,
-Feb. 10, 2014
-
+Peter McKay | Feb. 12, 2014
