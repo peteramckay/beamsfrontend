@@ -8,14 +8,7 @@ http://www.opensource.org/licenses/mit
 --------------------------------------*/
 
 
-@media only screen and (max-width: 3999px) {/* Some queries to reset the grid below full screen size, which is pretty big. Resetting key beam styles from pixels to percentages... */
-
-  .beam {
-    width: 100%;
-    padding: 0 5% 0 5%;
-  }
-
-} /*End 3800px breakpoint*/
+@media only screen and (max-width: 3999px) {} /*End 3800px breakpoint*/
 
 @media only screen and (max-width: 3800px) {} /*End 3800px breakpoint*/
 
@@ -25,11 +18,7 @@ http://www.opensource.org/licenses/mit
 
 @media only screen and (max-width: 3200px) {} /*End 3200px breakpoint*/
 
-@media only screen and (max-width: 3000px) {/* Resetting grid gutters, column width... */
-
-  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty {min-width: 150px}
-
-} /*End 3000px breakpoint*/
+@media only screen and (max-width: 3000px) {} /*End 3000px breakpoint*/
 
 @media only screen and (max-width: 2800px) {} /*End 2800px breakpoint*/
 
@@ -39,52 +28,7 @@ http://www.opensource.org/licenses/mit
 
 @media only screen and (max-width: 2200px) {} /*End 2200px breakpoint*/
 
-@media only screen and (max-width: 2000px) {
-
-  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty {min-width: 100px}
-  
-  .one {width: 3%}
-
-  .two {width: 8%}
-
-  .three {width: 13%}
-
-  .four {width: 18%}
-
-  .five {width: 23%}
-
-  .six {width: 28%}
-
-  .seven {width: 43%}
-
-  .eight {width: 38%}
-
-  .nine {width: 43%}
-
-  .ten {width: 48%}%
-
-  .eleven {width: 53%}
-
-  .twelve {width: 58%}
-
-  .thirteen {width: 63%}
-
-  .fourteen {width: 68%}
-
-  .fifteen {width: 73%}
-
-  .sixteen {width: 78%}
-
-  .seventeen {width: 83%}
-
-  .eighteen {width: 88%}
-
-  .nineteen {width: 93%}
-
-  .twenty {width: 98%}
-
-
-} /*End 2000px breakpoint*/
+@media only screen and (max-width: 2000px) {} /*End 2000px breakpoint*/
 
 @media only screen and (max-width: 1800px) {} /*End tk00px breakpoint*/
 
@@ -98,15 +42,7 @@ http://www.opensource.org/licenses/mit
 
 @media only screen and (max-width: 800px) {} /*End 800px breakpoint*/
 
-@media only screen and (max-width: 700px) {
-
-  .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .ten, .eleven, .twelve, .thirteen, .fourteen, .fifteen, .sixteen, .seventeen, .eighteen, .nineteen, .twenty {
-    margin: 0 2px 0 2px;
-    min-width: none;
-    width: 100%;
-  }
-
-} /*End 700px breakpoint*/
+@media only screen and (max-width: 700px) {} /*End 700px breakpoint*/
 
 @media only screen and (max-width: 600px) {} /*End 600px breakpoint*/
 

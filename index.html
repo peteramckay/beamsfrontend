@@ -22,7 +22,6 @@
       background: url('img/london.jpg');
       background-size: cover;
       background-position: center center;  
-      margin-bottom: 2em   
     }
 
     #flag h1 {
@@ -33,15 +32,25 @@
     
     #footer {height: 50px}
     
+    #griddemo2 {padding-left: 5px}
+    
+    #griddemo2 h6 {
+      background: #D4D4D4;
+      color: white;
+      margin: 2px;
+      padding: 3px;
+      text-align: center
+    }
+    
   </style>
 
   <div class="beam" id="flag"> <!-- A "beam" is a full-width horizontal row within the page design. This is the basic visual building block of pages within this framework. -->
     <h1>Go ahead. Build it with Beams.</h1>
   </div><!-- End flag beam-->
 
-  <div class="beam" id="intro"> 
+  <div class="beam margin-top margin-bottom" id="intro"> 
 
-    <div class="fourteen"> <!-- A ten-column child container within the beam. In this case, I've centered the child using custom inline stylesheet above. But if you stick with the framework's default settings, put up to 18 columns of content on each beam. The layout leaves about 1 column of whitespace on each side. -->
+    <div class="twelvecolumn"> <!-- A ten-column child container within the beam. In this case, I've centered the child using custom inline stylesheet above. But if you stick with the framework's default settings, put up to 18 columns of content on each beam. The layout leaves about 1 column of whitespace on each side. -->
 
       <p>Beams is a front-end Web framework designed primarily for multimedia-heavy sites. It is the centerpiece of a suite of open-source modules for developers who need to support video, photos, and other content across the widest range of screens and use cases possible.</p>
       <p>The Beams suite is currently v0.1.0, an alpha release. The modules are still a bit rough around the edges, to be sure. But we believe we at least have a good start here, something we can show to other developers, begin to build a community around, and start iterating quickly.</p>
@@ -53,10 +62,10 @@
       </ul>
       <p>We're glad to get pull requests, bug reports, or any other feedback you have about Beams. Drop us an <a href="mailto:peteramckay@gmail.com">email</a> anytime or visit us on <a href="http://github.com/peteramckay/beams">GitHub</a>.</p>
         
-     </div><!-- End 10-col container -->
+     </div><!-- End 12-column container -->
 
-     <div class="four">
-	   <h6>A list goes here...</h6>
+     <div class="eightcolumn">
+	   <h6>Quick Links</h6>
 	   <ul>
 	     <li>Item 1</li>
 	     <li>Item 2</li>
@@ -68,13 +77,40 @@
 
   <hr>
 
-  <div class="beam" id="demoarea">
+  <div class="beam margin-top margin-botton" id="griddemo1">
+    <h3>Taking responsiveness to new lengths — and widths, of course.</h3>
+    <p class="margin-bottom">From a livingroom-sized screen down to smartphone size, Beams offers you unparalleled flexibility in visual design. Narrow your browser window to see how our 20-column grid resizes its content containers to fit any viewport.</p>
+  </div> <!-- End griddemo2-->
 
-
-
+  <div class="beam unpadded" id="griddemo2">
+    <h6 class="onecolumn">1</h6>
+    <h6 class="nineteencolumn">19</h6>
+    <h6 class="twocolumn">2</h6>
+    <h6 class="fifteencolumn">15</h6>
+    <h6 class="threecolumn">3</h6>
+    <h6 class="fourcolumn">4</h6>
+    <h6 class="sixteencolumn">16</h6>
+    <h6 class="fivecolumn">5</h6>    
+    <h6 class="sixcolumn">6</h6>
+    <h6 class="ninecolumn">9</h6>
+    <h6 class="sevencolumn">7</h6>
+    <h6 class="thirteencolumn">13</h6>
+    <h6 class="eightcolumn">8</h6>
+    <h6 class="twocolumn">2</h6>
+    <h6 class="tencolumn">10</h6>
+    <h6 class="eighteencolumn">18</h6>
+    <h6 class="twocolumn">2</h6>
+    <h6 class="seventeencolumn">17</h6>
+    <h6 class="threecolumn">3</h6>
+    <h6 class="fourteencolumn">14</h6>    
+    <h6 class="sixcolumn">6</h6>
+    <h6 class="twelvecolumn">12</h6>
+    <h6 class="eightcolumn">8</h6>
+    <h6 class="elevencolumn">11</h6>
+    <h6 class="ninecolumn">9</h6>
+    <h6 class="twentycolumn">20</h6>
 
 <!--
-
 
 http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/
 <iframe width="560" height="315" src="//www.youtube.com/embed/7ZOARQiyj9s?rel=0" frameborder="0" allowfullscreen></iframe>

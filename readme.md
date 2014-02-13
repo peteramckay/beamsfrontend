@@ -24,7 +24,7 @@ The basic building block of pages in the responsive layout is full-width contain
 
 The "beam" class may be applied to any type of element, but beams should all be children of the body element only. Nesting them any deeper in the DOM may cause the design to break.
 
-The children of a beam can have classses of "one" to "twenty" to specify how many columns each should take up. Please note, although each beam is 20 columns wide, the children's widths should add up to no more than 18 columns. There's about a column's worth of whitespace on the side of each div by default.
+The children of a beam can have classses of "one" to "twenty" to specify how many columns each should take up. Please note, although each beam is 20 columns wide, the children's widths should add up to no more than 18 columns. There's about a column's worth of whitespace on the side of each div by default at the larger screen widths.
 
 Again, I consider this version of Beams an alpha. The framework here is still a bit rough around the edges, to be sure. But I think it's at least a good start, something to show to other developers, get feedback, and begin iterating quickly.
 
