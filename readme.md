@@ -5,7 +5,7 @@ Beams is a front-end Web framework designed primarily for multimedia-heavy sites
 
 Beams is free to use under MIT license. Key features of the framework so far: 
 
-- Built in HTML5, CSS3, and jQuery. For the purposes of the current alpha version of Beams, the focus is really on the CSS3 piece. But there is an unmodified copy of jQuery v2.1.0 included as well just in case implementers need it, so they can put it on their servers and call it quicker for their applications. We may add other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.
+- Built in HTML5, CSS3, and jQuery. For the purposes of the current alpha version of Beams, the focus is really on the CSS3 piece. But there is an unmodified copy of jQuery v2.1.0 included as well just in case implementers need it, so they can put it on their servers and call it quicker for their applications. Will probably add other JavaScript enhancements later so that Beam becomes an even more of a full-fledged development tool.
 
 - Responsive visual design based on a 20-column, 4,000-pixel grid -- approximately the physical screen size of a 48-inch TV. Yet the framework also scales down smoothly to any other size from desktop to tablet to smartphone as well.
 
@@ -24,11 +24,9 @@ The basic building block of pages in the responsive layout is full-width contain
 
 The "beam" class may be applied to any type of element, but beams should all be children of the body element only. Nesting them any deeper in the DOM may cause the design to break.
 
-The children of a beam can have classses of "one" to "twenty" to specify how many columns each should take up. Please note, although each beam is 20 columns wide, the children's widths should add up to no more than 18 columns. There's about a column's worth of whitespace on the side of each div by default at the larger screen widths.
+The children of a beam can have classses of "one" to "twenty" to specify how many columns each should take up. Total widths of the he children should add up to no more than twenty, since that's how wide each beam is as the parent container.
 
 Again, I consider this version of Beams an alpha. The framework here is still a bit rough around the edges, to be sure. But I think it's at least a good start, something to show to other developers, get feedback, and begin iterating quickly.
-
-Will certainly be adding integration with YouTube and other video services soon. We're going to need that for the sake of video integration. 
 
 If you have any other feedback or suggestions, I'm glad to hear them via GitHub or email peteramckay@gmail.com.
 
