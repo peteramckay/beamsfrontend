@@ -42,7 +42,26 @@ http://www.opensource.org/licenses/mit
 
 @media only screen and (max-width: 800px) {} /*End 800px breakpoint*/
 
-@media only screen and (max-width: 700px) {} /*End 700px breakpoint*/
+@media only screen and (max-width: 700px) {
+
+  .onecolumn, .twocolumn, .threecolumn, .fourcolumn, .fivecolumn, .sixcolumn, .sevencolumn, .eightcolumn, .ninecolumn, .tencolumn, .elevencolumn, .twelvecolumn, .thirteencolumn, .fourteencolumn, .fifteencolumn, .sixteencolumn, .seventeencolumn, .eighteencolumn, .nineteencolumn, .twentycolumn  {
+
+    margin: 0;
+    padding: 0 5px;  
+    float: none;
+    width: 100%;
+   
+  }
+
+  .sidebar.left {
+    padding: 5px;
+    border-top: 1px solid #BFBFBF;
+    border-bottom: 1px solid #BFBFBF;
+    margin-bottom: 1em;
+  }
+
+
+} /*End 700px breakpoint*/
 
 @media only screen and (max-width: 600px) {} /*End 600px breakpoint*/
 

@@ -31,14 +31,10 @@
     }
     
     #footer {height: 50px}
-    
-    #griddemo2 {padding-left: 5px}
-    
+        
     #griddemo2 h6 {
       background: #D4D4D4;
-      color: white;
-      margin: 2px;
-      padding: 3px;
+      border: 2px solid white;
       text-align: center
     }
     
@@ -50,7 +46,18 @@
 
   <div class="beam margin-top margin-bottom" id="intro"> 
 
-    <div class="twelvecolumn"> <!-- A ten-column child container within the beam. In this case, I've centered the child using custom inline stylesheet above. But if you stick with the framework's default settings, put up to 18 columns of content on each beam. The layout leaves about 1 column of whitespace on each side. -->
+     <div class="fivecolumn sidebar left">
+	   <h6>Quick Links</h6>
+	   <ul>
+	     <li>Our Responsive Grid</li>
+	     <li>Beams Server</li>
+	     <li>Beams Ads</li>
+	     <li>Beams on GitHub</li>
+	     <li>About Us</li>
+	   </ul> 
+     </div> <!-- End 7-column container -->
+     
+    <div class="thirteencolumn"> <!-- A 12-column child container within the beam. In this case, I've centered the child using custom inline stylesheet above. But if you stick with the framework's default settings, put up to 18 columns of content on each beam. The layout leaves about 1 column of whitespace on each side. -->
 
       <p>Beams is a front-end Web framework designed primarily for multimedia-heavy sites. It is the centerpiece of a suite of open-source modules for developers who need to support video, photos, and other content across the widest range of screens and use cases possible.</p>
       <p>The Beams suite is currently v0.1.0, an alpha release. The modules are still a bit rough around the edges, to be sure. But we believe we at least have a good start here, something we can show to other developers, begin to build a community around, and start iterating quickly.</p>
@@ -62,27 +69,20 @@
       </ul>
       <p>We're glad to get pull requests, bug reports, or any other feedback you have about Beams. Drop us an <a href="mailto:peteramckay@gmail.com">email</a> anytime or visit us on <a href="http://github.com/peteramckay/beams">GitHub</a>.</p>
         
-     </div><!-- End 12-column container -->
+     </div><!-- End 13-column container -->
 
-     <div class="eightcolumn">
-	   <h6>Quick Links</h6>
-	   <ul>
-	     <li>Item 1</li>
-	     <li>Item 2</li>
-	     <li>Item 3</li>
-	   </ul> 
-     </div> <!-- End 8-column container -->
+
      
   </div><!-- End intro beam -->
 
   <hr>
 
   <div class="beam margin-top margin-botton" id="griddemo1">
-    <h3>Taking responsiveness to new lengths — and widths, of course.</h3>
-    <p class="margin-bottom">From a livingroom-sized screen down to smartphone size, Beams offers you unparalleled flexibility in visual design. Narrow your browser window to see how our 20-column grid resizes its content containers to fit any viewport.</p>
-  </div> <!-- End griddemo2-->
+    <span class="twentycolumn"> <h3>Taking responsiveness to new lengths — and widths, of course.</h3>
+    <p class="margin-bottom">From a livingroom-sized screen down to smartphone size, Beams offers you unparalleled flexibility in visual design. Narrow your browser window to see how our 20-column grid resizes its content containers to fit any viewport.</p></span>
+  </div> <!-- End griddemo1-->
 
-  <div class="beam unpadded" id="griddemo2">
+  <div class="beam" id="griddemo2">
     <h6 class="onecolumn">1</h6>
     <h6 class="nineteencolumn">19</h6>
     <h6 class="twocolumn">2</h6>
