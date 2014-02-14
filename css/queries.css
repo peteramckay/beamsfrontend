@@ -42,12 +42,18 @@ http://www.opensource.org/licenses/mit
 
 @media only screen and (max-width: 800px) {
 
-.onecolumn, .twocolumn, .threecolumn, .fourcolumn, .fivecolumn, .sixcolumn, .sevencolumn, .eightcolumn, .ninecolumn, .tencolumn, .elevencolumn, .twelvecolumn, .thirteencolumn, .fourteencolumn, .fifteencolumn, .sixteencolumn, .seventeencolumn, .eighteencolumn, .nineteencolumn, .twentycolumn  {
-  margin: 0 6px 0 6px;  /* Making margin and padding a lil more cozy to preserve proper column breaks... */
-  padding: 0 6px 0 6px;   
-  display: inline-block;
-  float: left;
-}
+  .onecolumn, .twocolumn, .threecolumn, .fourcolumn, .fivecolumn, .sixcolumn, .sevencolumn, .eightcolumn, .ninecolumn, .tencolumn, .elevencolumn, .twelvecolumn, .thirteencolumn, .fourteencolumn, .fifteencolumn, .sixteencolumn, .seventeencolumn, .eighteencolumn, .nineteencolumn, .twentycolumn  {
+    margin: 0 6px 0 6px;  /* Making margin and padding a lil more cozy to preserve proper column breaks... */
+    padding: 0 6px 0 6px;   
+    display: inline-block;
+    float: left;
+  }
+
+  .centered {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
 
 
 } /*End 800px breakpoint*/

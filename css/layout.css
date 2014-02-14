@@ -5,8 +5,6 @@ Copyright (c) 2014 Peter McKay
 Free to use under the MIT license.
 http://www.opensource.org/licenses/mit
 
-
-
 Table of Content
 
 #Basics & Typography
@@ -16,10 +14,6 @@ Table of Content
 #Buttons
 #Forms
 #Miscellaneous
-
-
-
-----------------------------------------
 
 
 
@@ -135,7 +129,6 @@ table {
   max-width: 4000px;
   margin: 0 auto;
   float: left;
-  float: none;
   display: inline-block;
   clear: both;
 }
@@ -349,4 +342,11 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 .sidebar.left {}
 
 .sidebar.right {}
+
+.centered {
+  float: none; 
+  display: block; 
+  margin: 0 auto; 
+}
+
 
