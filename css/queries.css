@@ -64,10 +64,10 @@ http://www.opensource.org/licenses/mit
   }
 
   .sidebar.left {
-    padding: 5px;
     border-top: 1px solid #BFBFBF;
     border-bottom: 1px solid #BFBFBF;
-    margin-bottom: 1em;
+    margin: 0 0 1em 0;  
+  
   }
 
 
