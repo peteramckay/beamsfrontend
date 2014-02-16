@@ -35,17 +35,24 @@
     }
     
     #footer {
-		
-	  margin-bottom: 5em;
-	  text-align: center;	
-		
+	  padding: 2em 0 4em 0;
+	  text-align: center;
+	  background: #DEDEDE	
     }
-        
+            
     #griddemo2 h6 {
       background: #D4D4D4;
-      border: 2px solid white;
-      text-align: center
+      margin: 2px;
+      text-align: center;
     }
+    
+    #griddemo2 {padding: 10px}
+    
+    #viddemos1 {
+      background: #6E6E6E; 
+      color: white;
+    }
+    
     
   </style>
 
@@ -86,18 +93,17 @@
         
      </div><!-- End 12-column container -->
 
-
      
   </div><!-- End intro beam -->
-
+  
   <hr>
 
-  <div class="beam margin-top margin-bottom" id="grid">
+  <div class="beam padded-top padded-bottom" id="grid">
     <span class="fifteencolumn centered"> <h3>Taking responsiveness to new lengths — and widths, of course.</h3>
     <p class="margin-bottom">From a livingroom-sized screen down to smartphone size, Beams offers you unparalleled flexibility in visual design. Narrow your browser window to see how our 20-column grid resizes its content containers to fit any viewport.</p></span>
   </div> <!-- End griddemo1-->
 
-  <div class="beam margin-bottom" id="griddemo2">
+  <div class="beam margin-bottom padded-bottom" id="griddemo2">
     <h6 class="onecolumn">1</h6>
     <h6 class="nineteencolumn">19</h6>
     <h6 class="twocolumn">2</h6>
@@ -127,40 +133,40 @@
 
 
   </div><!-- End grid demo beam -->
+    
 
-  <hr>
 
-  <div class="beam padded-top padded-bottom" id="viddemos">
+  <div class="beam padded-bottom margin-top" id="viddemos1">
    
-    <div class="tencolumn padded-top padded-bottom" id="HTML5demo">
+    <div class="tencolumn padded-top padded-bottom">
       <h3>Video belongs on Beams</h3>
       <p>Embedded video players can be a particularly finnicky design element of many Web pages. Not so with Beams, where content in a <code>&lt;video&gt;</code> or <code>&lt;iframe&gt;</code> tag is just as responsive as anything else.</p>
       <p>Try it with this self-hosted HTML5 video...</p>
     </div> <!-- End 10-column container -->
         
     <div class="tencolumn padded-top padded-bottom"> 
-      <video id="sample Ogg Vorbis video" src="img/small.ogv" type="video/ogg" controls></video>
+      <video id="sample Ogg Vorbis video" src="img/small.ogv" type="video/ogg" controls poster></video>
     </div> <!-- End 10-column container -->
+  </div><!-- End viddemos1 -->
+  
+  <div class="beam padded-top padded-bottom" id="viddemos2">
     
-    <div class="twentycolumn padded-top padded-bottom" id="YTDemo">	
+    
+    <div class="sixteencolumn padded-top padded-bottom centered" id="YTDemo">	
       <p>Of course, Beams integrates with embedded players from the most popular third-party video services as well. To pull this off, we rely on the nifty jQuery plugin <a href="http://fitvidsjs.com/">FitVids.js</a> by Chris Coyier and his friends at Paravel, free to use under the innovative <a href="http://www.wtfpl.net/">WTFPL</a>.</p> 
       <p>To see FitVids in action, check out the responsiveness on this YouTube video by filmmaker Jason Zada, shot in native 4K resolution...</p>
       <iframe width="1280" height="720" src="//www.youtube.com/embed/rdQ0i3v_KVY?list=PL5BF9E09ECEC8F88F" frameborder="0" allowfullscreen></iframe>
     </div> <!-- End YTDemo-->
     
-    <div class="twentycolumn padded-top padded-bottom" id="VimeoDemo">
+    <div class="sixteencolumn padded-top padded-bottom centered" id="VimeoDemo">
       <p>...and here's an example via Vimeo about a topic close to our hearts. Hat tip to filmmaker Rob Perri on this one (C: </p>
       <iframe src="//player.vimeo.com/video/4288854" width="960" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>       
     </div> <!-- End VimeoDemo -->
     
-  </div> <!-- End video demos -->
+  </div> <!-- End viddemos2 -->
     
     
-  
-  <hr>
-
-
-  <div class="twentycolumn padded-top padded-bottom" id="footer">
+  <div class="beam padded-top padded-bottom" id="footer">
   
   
   <p class="padded-top"><a href="">Download Beams</a> | <a href="#flag">Back to top</a></p>
