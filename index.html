@@ -136,7 +136,7 @@
     
 
 
-  <div class="beam padded-bottom margin-top" id="viddemos1">
+  <div class="beam padded-bottom padded-top margin-top" id="viddemos1">
    
     <div class="tencolumn padded-top padded-bottom">
       <h3>Video belongs on Beams</h3>
@@ -145,7 +145,11 @@
     </div> <!-- End 10-column container -->
         
     <div class="tencolumn padded-top padded-bottom"> 
-      <video id="sample Ogg Vorbis video" src="img/small.ogv" type="video/ogg" controls poster></video>
+      <video id="sample video" controls poster>
+        <source src="video/small.ogv" type="video/ogg">
+        <source src="video/small.webm" type="video/webm">
+        Your browser does not support the <code>video</code> element.
+      </video>
     </div> <!-- End 10-column container -->
   </div><!-- End viddemos1 -->
   
@@ -154,12 +158,12 @@
     
     <div class="sixteencolumn padded-top padded-bottom centered" id="YTDemo">	
       <p>Of course, Beams integrates with embedded players from the most popular third-party video services as well. To pull this off, we rely on the nifty jQuery plugin <a href="http://fitvidsjs.com/">FitVids.js</a> by Chris Coyier and his friends at Paravel, free to use under the innovative <a href="http://www.wtfpl.net/">WTFPL</a>.</p> 
-      <p>To see FitVids in action, check out the responsiveness on this YouTube video by filmmaker Jason Zada, shot in native 4K resolution...</p>
+      <p class="padded-bottom">To see FitVids in action, check out the responsiveness on this YouTube video by filmmaker Jason Zada, shot in native 4K resolution...</p>
       <iframe width="1280" height="720" src="//www.youtube.com/embed/rdQ0i3v_KVY?list=PL5BF9E09ECEC8F88F" frameborder="0" allowfullscreen></iframe>
     </div> <!-- End YTDemo-->
     
     <div class="sixteencolumn padded-top padded-bottom centered" id="VimeoDemo">
-      <p>...and here's an example via Vimeo about a topic close to our hearts. Hat tip to filmmaker Rob Perri on this one (C: </p>
+      <p class="padded-bottom">...and here's an example via Vimeo about a topic close to our hearts. Hat tip to filmmaker Rob Perri on this one (C: </p>
       <iframe src="//player.vimeo.com/video/4288854" width="960" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>       
     </div> <!-- End VimeoDemo -->
     
