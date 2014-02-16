@@ -90,8 +90,8 @@ img {max-width: 100%}
 video {
   width: 100%; 
   height: auto;
-  background: #E8E8E8;
-  border: 1px solid #4D4D4D
+  background: black;
+  border: 1px solid black
 }
 
 hr {
