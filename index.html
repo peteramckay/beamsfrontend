@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="robots" content="noindex" /> <!-- MAKES PAGES INVISIBLE TO SEARCH INDEXES -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
   <title>Beams</title>
@@ -9,9 +8,13 @@
   <link rel="stylesheet" href="css/queries.css">
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300|Roboto+Condensed:400,700,400italic,700italic">
   <link rel="stylesheet" href="css/custom.css"> <!-- Optional. A stylesheet for you to add your own flavor to Beams (C: -->
-  <script href="js/jquery-2.1.0.min.js"></script>
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <script src="js/jquery.fitvids.js"></script>
   <script>
     $(document).ready(function() {
+  
+      $("div").fitVids();
+      
 
     }); //end ready
   </script>
@@ -31,7 +34,12 @@
       padding: 2.5em 0 1.5em 0; 
     }
     
-    #footer {height: 50px}
+    #footer {
+		
+	  margin-bottom: 5em;
+	  text-align: center;	
+		
+    }
         
     #griddemo2 h6 {
       background: #D4D4D4;
@@ -50,15 +58,16 @@
     <div class="fivecolumn sidebar left">
 	  <h6>Quick Links</h6>
 	  <ul>
-	    <li>Overview</li>
-	    <li>Our Responsive Grid</li>
-	    <li>Video on Beams</li>
+	    <li><a href="#flag">Overview</a></li>
+	    <li><a href="#grid">Our Responsive Grid</a></li>
+	    <li><a href="#viddemos">Video on Beams</a></li>
 	    <li>Beams Server</li>
 	    <li>Beams Ads</li>
-            <li>Download Beams</li>
+        <li>Download Beams</li>
 	    <li>Beams on GitHub</li>
 	    <li>About Us</li>
-	  </ul> 
+	  </ul>
+ 
     </div> <!-- End 5-column sidebar -->
 
 
@@ -83,7 +92,7 @@
 
   <hr>
 
-  <div class="beam margin-top margin-bottom" id="griddemo1">
+  <div class="beam margin-top margin-bottom" id="grid">
     <span class="fifteencolumn centered"> <h3>Taking responsiveness to new lengths — and widths, of course.</h3>
     <p class="margin-bottom">From a livingroom-sized screen down to smartphone size, Beams offers you unparalleled flexibility in visual design. Narrow your browser window to see how our 20-column grid resizes its content containers to fit any viewport.</p></span>
   </div> <!-- End griddemo1-->
@@ -117,103 +126,46 @@
     <h6 class="twentycolumn">20</h6>
 
 
-  </div><!-- End demoarea beam -->
+  </div><!-- End grid demo beam -->
 
   <hr>
 
-  <div class="beam padded-top" id="viddemo">
-    <div class="tencolumn">
+  <div class="beam padded-top padded-bottom" id="viddemos">
+   
+    <div class="tencolumn padded-top padded-bottom" id="HTML5demo">
       <h3>Video belongs on Beams</h3>
-      <p>Embedded video players can be a particularly finnicky part of many Web pages. Not so with Beams, where content in a video or iframe tag is just as responsive as anything else. </p>
-    </div>
-    <div class="tencolumn">
-      <iframe width="560" height="315" src="//www.youtube.com/embed/yVpbFMhOAwE?rel=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="twenty padded-top padded-bottom">
-      <iframe width="1280" height="720" src="//www.youtube.com/embed/hyg0dSOu7PQ?rel=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div> <!-- End viddemo -->
-
-  <div class="beam" id="footer">
-
-
-
-
-<!--
-
-http://techslides.com/sample-webm-ogg-and-mp4-video-files-for-html5/
-<iframe width="560" height="315" src="//www.youtube.com/embed/7ZOARQiyj9s?rel=0" frameborder="0" allowfullscreen></iframe>
-	  
-	<video></video>  
-	
-	
-	
-	  
-
-
-https://dl.dropboxusercontent.com/u/45579920/london.jpg
-
-
-Photo by Alexander Kachkaev via Flickr under Creative Commons license
-
-
-http://www.flickr.com/photos/kachkaev/
-http://creativecommons.org/licenses/by/2.0/
-
-
-
-
-
-      <h2>Another headline goes here</h2>
-      <p>But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange! Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice. No. They must get just as nigh the water as they possibly can without falling in. And there they stand—miles of them—leagues. Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west. Yet here they all unite. Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither?</p>
-      <blockquote><p>Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off—then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball. With a philosophical flourish Cato throws himself upon his sword; I quietly take to the ship. There is nothing surprising in this. If they but knew it, almost all men in their degree, some time or other, cherish very nearly the same feelings towards the ocean with me.</p>
-      <p>There now is your insular city of the Manhattoes, belted round by wharves as Indian isles by coral reefs—commerce surrounds it with her surf. Right and left, the streets take you waterward. Its extreme downtown is the battery, where that noble mole is washed by waves, and cooled by breezes, which a few hours previous were out of sight of land. Look at the crowds of water-gazers there.</p></blockquote>
-      <p>Circumambulate the city of a dreamy Sabbath afternoon. Go from Corlears Hook to Coenties Slip, and from thence, by Whitehall, northward. What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here?</p>
-          
-      <h1>A 3-column div with another h1 headline</h1>
-      <h2>This is an h2 headline</h2>
-      <h3>This is an h3 headline</h3>
-      <h4>This is an h4 headline</h4>
-      <h5>This is an h5 headline</h5>
-      <h6>This is an h6 headline</h6>
+      <p>Embedded video players can be a particularly finnicky design element of many Web pages. Not so with Beams, where content in a <code>&lt;video&gt;</code> or <code>&lt;iframe&gt;</code> tag is just as responsive as anything else.</p>
+      <p>Try it with this self-hosted HTML5 video...</p>
+    </div> <!-- End 10-column container -->
+        
+    <div class="tencolumn padded-top padded-bottom"> 
+      <video id="sample Ogg Vorbis video" src="img/small.ogv" type="video/ogg" controls></video>
+    </div> <!-- End 10-column container -->
     
-      <h2>This is a 5-column div</h2>
-      <p>Circumambulate the city of a dreamy Sabbath afternoon.</p>
-      <ul>
-        <li>Go from Corlears Hook..</li>	  
-        <li>To Coenties Slip...</li>	  
-        <li>And from thence, by Whitehall, northward.</li>	  
-      </ul>  
-      <p>What do you see?—Posted like silent sentinels all around the town, stand thousands upon thousands of mortal men fixed in ocean reveries. Some leaning against the spiles; some seated upon the pier-heads; some looking over the bulwarks of ships from China; some high aloft in the rigging, as if striving to get a still better seaward peep. But these are all landsmen; of week days pent up in lath and plaster—tied to counters, nailed to benches, clinched to desks. How then is this? Are the green fields gone? What do they here?</p>
-      <button type="button">Click Me!</button> 
-      <button type="button">Another Button</button> 
-      <p>But look! here come more crowds, pacing straight for the water, and seemingly bound for a dive. Strange! Nothing will content them but the extremest limit of the land; loitering under the shady lee of yonder warehouses will not suffice. No. They must get just as nigh the water as they possibly can without falling in. And there they stand—miles of them—leagues. Inlanders all, they come from lanes and alleys, streets and avenues—north, east, south, and west. Yet here they all unite. Tell me, does the magnetic virtue of the needles of the compasses of all those ships attract them thither?</p>
+    <div class="twentycolumn padded-top padded-bottom" id="YTDemo">	
+      <p>Of course, Beams integrates with embedded players from the most popular third-party video services as well. To pull this off, we rely on the nifty jQuery plugin <a href="http://fitvidsjs.com/">FitVids.js</a> by Chris Coyier and his friends at Paravel, free to use under the innovative <a href="http://www.wtfpl.net/">WTFPL</a>.</p> 
+      <p>To see FitVids in action, check out the responsiveness on this YouTube video by filmmaker Jason Zada, shot in native 4K resolution...</p>
+      <iframe width="1280" height="720" src="//www.youtube.com/embed/rdQ0i3v_KVY?list=PL5BF9E09ECEC8F88F" frameborder="0" allowfullscreen></iframe>
+    </div> <!-- End YTDemo-->
     
-      <form name="bngform" action="" method="get">
-        <p>First, we'll need the name your mama and the government call you by.</p>
-        <input type="text" name="RnameF" value="" placeholder="First"><br>
-        <input type="text" name="RnameM" value="" placeholder="Middle"><br>
-        <input type="text" name="RnameL" value="" placeholder="Last"><br>
-        <p>Next, your gender, please.</p><br>
-        <input type="radio" name="sex" id="male" value="male">
-        <label for="male">Hoochie Coochie Man</label><br>
-        <input type="radio" name="sex" id="female" value="female">
-        <label for="female">Mean Mistreatin' Woman</label><br>
-        <input type="radio" name="sex" id="trans" value="trans">
-        <label for="trans">It's a new day. It's a new life for me.</label><br>
-        <input type="submit" value="Submit" onSubmit="generateBname(this.bngform)" id="subbutton">
-    </form>
-
--->
+    <div class="twentycolumn padded-top padded-bottom" id="VimeoDemo">
+      <p>...and here's an example via Vimeo about a topic close to our hearts. Hat tip to filmmaker Rob Perri on this one (C: </p>
+      <iframe src="//player.vimeo.com/video/4288854" width="960" height="720" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>       
+    </div> <!-- End VimeoDemo -->
+    
+  </div> <!-- End video demos -->
+    
+    
+  
+  <hr>
 
 
-
-
-
-
-  </div><!-- End footer beam -->
-
-
+  <div class="twentycolumn padded-top padded-bottom" id="footer">
+  
+  
+  <p class="padded-top"><a href="">Download Beams</a> | <a href="#flag">Back to top</a></p>
+  
+  </div>
 
 </body>
 </html>

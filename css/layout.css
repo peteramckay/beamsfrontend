@@ -85,7 +85,12 @@ em {font-style: italic}
 
 strong {font-weight: bold}
 
-img {}
+img {max-width: 100%}
+
+video {
+  width: 100%; 
+  height: auto;
+}
 
 hr {
   clear: both;
@@ -129,7 +134,7 @@ table {
   max-width: 4000px;
   margin: 0 auto;
   float: left;
-  display: inline-block;
+  display: block;
   clear: both;
 }
 
