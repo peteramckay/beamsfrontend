@@ -9,7 +9,6 @@ Table of Content
 
 #Basics & Typography
 #Grid
-#Links
 #Lists
 #Buttons
 #Forms
@@ -36,6 +35,7 @@ Table of Content
 html {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
+  font-weight: 300;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -47,10 +47,19 @@ body {
   width: 100%;
 }
 
+a, a:visited {
+  text-decoration: none;
+  color: #A80000;
+  outline: 0;
+  font-weight: 500
+}
+
+a:hover, a:focus {text-decoration: underline}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.2;
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 0.5em;
 }
 
@@ -71,8 +80,8 @@ h4, h5, h6 {margin-bottom: 0.25em}
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
 p, ul, ol, .button {
-  font-size: 1.3em;
-  line-height: 1.4;
+  font-size: 1.35em;
+  line-height: 1.45;
   margin-bottom: 1em;  
 }
 
@@ -191,18 +200,6 @@ table {
 .twentycolumn {width: 98%}
 
 
-/*--------------------------------------
-#Links
---------------------------------------*/
-
-a, a:visited {
-  text-decoration: none;
-  color: #A80000;
-  outline: 0;
-  font-weight: bold
-}
-
-a:hover, a:focus {text-decoration: underline}
 
 /*--------------------------------------
 #Lists
