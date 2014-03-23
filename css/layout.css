@@ -35,7 +35,7 @@ Table of Content
 html {
   font-size: 16px;
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: normal;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
@@ -51,7 +51,7 @@ a, a:visited {
   text-decoration: none;
   color: #A80000;
   outline: 0;
-  font-weight: 500
+  font-weight: bold
 }
 
 a:hover, a:focus {text-decoration: underline}
@@ -59,7 +59,7 @@ a:hover, a:focus {text-decoration: underline}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: bold;
   margin-bottom: 0.5em;
 }
 
