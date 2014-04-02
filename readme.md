@@ -46,7 +46,8 @@ CSS styles are spread across three stylesheets, one that has the basic layout, i
 
 Again, I consider this version of Beams Front End an alpha. The framework here is still a bit nascent, to be sure. But I think it's at least a good start, something to show to other developers, get feedback, and begin iterating quickly.
 
-Peter McKay
-Co-Founder/Chief Product Officer
-Roscoe Labs
-April 2, 2014
+Peter McKay   
+Co-Founder/Chief Product Officer   
+Roscoe Labs   
+April 2, 2014   
+
