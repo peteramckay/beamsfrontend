@@ -1,12 +1,12 @@
 /*
 
-Beams Server v0.1.0
-Copyright (c) 2014, Peter McKay
-Free to use under MIT license
+Beams v0.1 (Alpha)
+Copyright (c) 2014 Peter McKay
+Free to use under the MIT license.
 
 
 
---------------------------------------
+-------------------------------------
 
 Table of Content
 
@@ -14,6 +14,7 @@ Table of Content
 #Grid
 #Lists
 #Buttons
+#Blog
 #Forms
 #Miscellaneous
 
@@ -278,6 +279,28 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
+
+
+
+/*--------------------------------------
+#Blog
+--------------------------------------*/
+
+.postmetadata {color: #ababab; font-weight: bold}
+
+.postbyline, .postdateline, .posttags {display: inline-block; margin: 0 0.25em 0 0}
+
+.blogpost {}
+
+.blogpost h3>a, .blogpost h3>a:hover {color: #000000}
+
+#blogrsslogo {
+  width: 0.75em;
+  margin-left: 10px;
+}
+
+#blogrsslogo img {}
+
 
 /*--------------------------------------
 #Forms
