@@ -49,5 +49,5 @@ Again, I consider this version of Beams Front End an alpha. The framework here i
 Peter McKay   
 Co-Founder/Chief Product Officer   
 Roscoe Labs   
-April 2, 2014   
+May 2014   
 

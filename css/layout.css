@@ -1,6 +1,6 @@
 /*
 
-Beams v0.1 (Alpha)
+Beams v0.1.0 (Alpha)
 Copyright (c) 2014 Peter McKay
 Free to use under the MIT license.
 
@@ -83,7 +83,7 @@ h4, h5, h6 {margin-bottom: 0.25em}
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {font-weight: inherit}
 
-p, ul, ol, .button {
+p, ul, ol, .button, label {
   font-size: 1.35em;
   line-height: 1.45;
   margin-bottom: 1em;  
